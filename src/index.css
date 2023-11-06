@@ -41,17 +41,8 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     font-size: 0.9rem;
+    overflow: hidden; /* Hide scroll bars */
 }
-
-
-
-
-
-
-
-
-
-
 
 /* THEME change using react */
 main.color-1 {
@@ -89,13 +80,6 @@ main {
     --color-primary: hsl(var(--primary-hue), 89%, 41%);
 }
 
-
-
-
-
-
-
-
 /* GENERAL CONTAINER CLASS */
 .container {
     width: var(--container-width-lg);
@@ -123,7 +107,6 @@ section > p {
     margin: 0.5rem auto 4rem;
     width: 40%;
 }
-
 
 /* GENERAL SECTION STYLES */
 a {
@@ -214,15 +197,12 @@ img {
     padding: 0.5rem 1.2rem;
 }
 
-
-
-
 /* MEDIA QUERIES (tablets) */
 @media screen and (max-width: 1024px) {
     body {
         font-size: 1rem;
     }
-    
+
     .container {
         width: var(--container-width-md);
     }
@@ -240,10 +220,6 @@ img {
         font-size: 2rem;
     }
 }
-
-
-
-
 
 /* MEDIA QUERIES (phones) */
 @media screen and (max-width: 600px) {

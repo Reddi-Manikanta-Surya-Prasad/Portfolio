@@ -1,0 +1,42 @@
+/* Add your custom CSS styles for the AboutMe component here */
+.about-me {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.about-me h2 {
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.about-me div {
+    font-size: 1rem;
+    color: #555;
+    line-height: 1.6;
+    padding: 1rem; /* Add padding to create space around the content */
+    margin-top: 1rem; /* Add margin to separate each content section */
+    position: relative; /* Set position to relative to style the background */
+}
+
+/* Optional: Add a subtle background color to each content section */
+.about-me div::before {
+    content: '';
+    display: block;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.02);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+/* Optional: Add some spacing between the content sections */
+.about-me div + div {
+    margin-top: 1.5rem;
+}

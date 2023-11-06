@@ -1,0 +1,30 @@
+.contact__container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact__container div {
+  text-align: center;
+  margin: 10px; /* Add margin for spacing */
+}
+
+.contact__container a {
+  width: 5rem;
+  aspect-ratio: 1/1;
+  color: white;
+  background: var(--color-primary);
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  border: 2px solid transparent;
+  border-radius: var(--border-radius-1);
+  text-decoration: none; /* Remove underline from links */
+}
+
+.contact__container a:hover {
+  background: transparent;
+  border-color: var(--color-primary);
+  color: var(--color-primary);
+  transform: translateY(-0.5rem);
+}
