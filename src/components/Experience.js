@@ -13,7 +13,7 @@ const Experience = () => {
         </p>
       </div>
       <div className="experience-item">
-        <h3>Village IT Services Private Limited (Cloud Support Associate)</h3>
+        <h3>Village IT Services Private Limited (Cloud Support Engineer)</h3>
         <p>March 2019 - March 2022 (3 years 1 month)</p>
         <p>
         During my time at Village IT Services, I specialized in deploying and managing web and mobile projects on AWS cloud infrastructure. I not only provided exceptional technical support but also optimized resource utilization, resulting in cost savings and improved project performance. Meticulous planning was a cornerstone of my approach, leading to flawless project execution. I stayed ahead of cloud technology advancements and actively contributed to fostering innovation in cloud-supported development.
