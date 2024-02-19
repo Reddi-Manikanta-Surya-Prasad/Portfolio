@@ -44,12 +44,12 @@ const Certifications = () => {
           <p>Oracle Cloud Infrastructure 2023 Certified Foundations Associate ☁️</p>
         </li>
         <li>
-          <img src={OracleBadge2} alt="Oracle Cloud Data Management 2023 Certified Foundations Associate Badge" />
-          <p>Oracle Cloud Data Management 2023 Certified Foundations Associate 📊</p>
+          <img src={OracleBadge2} alt="Oracle Cloud Infrastructure 2023 Certified Developer Professional Badge" />
+          <p>Oracle Cloud Infrastructure 2023 Certified Developer Professional Badge 📊</p>
         </li>
         <li>
-          <img src={OracleBadge3} alt="Oracle Cloud Infrastructure 2023 Certified Developer Professional Badge" />
-          <p>Oracle Cloud Infrastructure 2023 Certified Developer Professional 🛠️</p>
+          <img src={OracleBadge3} alt="Oracle Cloud Infrastructure 2023 Certified DevOps Professional" />
+          <p>Oracle Cloud Infrastructure 2023 Certified DevOps Professional 🛠️</p>
         </li>
       </ul>
     </section>
