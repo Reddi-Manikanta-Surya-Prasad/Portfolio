@@ -7,7 +7,7 @@ const Experience = () => {
       <h2>Experience</h2>
       <div className="experience-item">
         <h3>Accenture (Infra Managed Service Associate)</h3>
-        <p>April 2022 - Present (1 year 10 months)</p>
+        <p>April 2022 - January 2024 (1 year 10 months)</p>
         <p>
         In my role here, I've been at the forefront of designing and developing software solutions that precisely align with business requirements. I've crafted implementation and integration approaches for applications, ensuring seamless functionality. Additionally, I've taken charge of primary support for application releases into production, meticulously planning and scheduling deployments. Whenever defects or performance issues arise within Service Level Agreements, I've been quick to coordinate and resolve them, ensuring minimal downtime. My dedication to enhancing system performance is evident through my thorough analysis, design, building, and testing of new components.
         </p>
