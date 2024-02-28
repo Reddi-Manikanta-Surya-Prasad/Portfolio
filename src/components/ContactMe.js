@@ -11,7 +11,7 @@ const ContactMe = () => {
       <p>Shoot me a message via any of the links below!</p>
       <div className="contact__container" data-aos="fade-up">
         <div>
-        <a href="https://mail.google.com" target="_blank" rel="noopener noreferrer">
+        <a href="mailto:reddimani14@gmail.com" target="_blank" rel="noopener noreferrer">
             <img src={gmailIcon} alt="Gmail Icon" />
           </a>
         </div>
